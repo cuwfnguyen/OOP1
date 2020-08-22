@@ -73,10 +73,11 @@ public class Display extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel3.setText("HDSD");
 
+        jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTextArea1.setRows(5);
-        jTextArea1.setText("\nI know that birds fly in different directions\nI hope to see you again\nBirds fly in different directions\nSo fly high, so fly high\n");
+        jTextArea1.setText("1.Người dùng nhập biểu thức toán học vào ô nhập biểu thức.\n\n2.Nhập xong nhấn nút tính toán hoặc enter để xem kết quả.\n\nLưu ý:\n\n1.Toán hạng sử dụng là các số nguyên.\n\n2.Biểu diễn các phép toán:\n- Phép cộng: \"+\"\n- Phép trừ: \"-\"\n- Phép nhân: \"*\"\n- Phép chia lấy phần nguyên: \"/\"\n- Phép lấy dư: \"%\"\n- Lũy thừa: \"^\"\n- Giai thừa: \"!\"\n\n3.Biểu thức nhập vào cần là một biểu thức toán học đúng đắn.\n(Tức giữa 2 toán hạng sẽ là một toán tử với các phép toán \ncộng, trừ, nhân, chia, lấy dư, lũy thừa và sẽ là một toán hạng \ntrước một toán hạng với phép toán giai thừa)\n\n4.Trường hợp nhập sai khi nhấn tính toán sẽ báo lỗi và phải sửa lại.\n(Ví dụ 2**3,2//3,2!3,2+3+,*9+6,...)");
         jScrollPane3.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -123,11 +124,9 @@ public class Display extends javax.swing.JFrame {
                 .addGap(24, 24, 24)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(39, Short.MAX_VALUE))
+                    .addComponent(jScrollPane3))
+                .addGap(39, 39, 39))
         );
-
-        jLabel1.getAccessibleContext().setAccessibleName("Nhập biểu thức");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

@@ -75,9 +75,9 @@
               <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jLabel3" min="-2" pref="25" max="-2" attributes="0"/>
-                  <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace pref="39" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -101,9 +101,6 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Nh&#x1ead;p bi&#x1ec3;u th&#x1ee9;c"/>
       </Properties>
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Nh&#x1ead;p bi&#x1ec3;u th&#x1ee9;c"/>
-      </AccessibilityProperties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
@@ -160,12 +157,13 @@
       <SubComponents>
         <Component class="javax.swing.JTextArea" name="jTextArea1">
           <Properties>
+            <Property name="editable" type="boolean" value="false"/>
             <Property name="columns" type="int" value="20"/>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Arial" size="14" style="0"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="&#xa;I know that birds fly in different directions&#xa;I hope to see you again&#xa;Birds fly in different directions&#xa;So fly high, so fly high&#xa;"/>
+            <Property name="text" type="java.lang.String" value="1.Ng&#x1b0;&#x1edd;i d&#xf9;ng nh&#x1ead;p bi&#x1ec3;u th&#x1ee9;c to&#xe1;n h&#x1ecd;c v&#xe0;o &#xf4; nh&#x1ead;p bi&#x1ec3;u th&#x1ee9;c.&#xa;&#xa;2.Nh&#x1ead;p xong nh&#x1ea5;n n&#xfa;t t&#xed;nh to&#xe1;n ho&#x1eb7;c enter &#x111;&#x1ec3; xem k&#x1ebf;t qu&#x1ea3;.&#xa;&#xa;L&#x1b0;u &#xfd;:&#xa;&#xa;1.To&#xe1;n h&#x1ea1;ng s&#x1eed; d&#x1ee5;ng l&#xe0; c&#xe1;c s&#x1ed1; nguy&#xea;n.&#xa;&#xa;2.Bi&#x1ec3;u di&#x1ec5;n c&#xe1;c ph&#xe9;p to&#xe1;n:&#xa;- Ph&#xe9;p c&#x1ed9;ng: &quot;+&quot;&#xa;- Ph&#xe9;p tr&#x1eeb;: &quot;-&quot;&#xa;- Ph&#xe9;p nh&#xe2;n: &quot;*&quot;&#xa;- Ph&#xe9;p chia l&#x1ea5;y ph&#x1ea7;n nguy&#xea;n: &quot;/&quot;&#xa;- Ph&#xe9;p l&#x1ea5;y d&#x1b0;: &quot;%&quot;&#xa;- L&#x169;y th&#x1eeb;a: &quot;^&quot;&#xa;- Giai th&#x1eeb;a: &quot;!&quot;&#xa;&#xa;3.Bi&#x1ec3;u th&#x1ee9;c nh&#x1ead;p v&#xe0;o c&#x1ea7;n l&#xe0; m&#x1ed9;t bi&#x1ec3;u th&#x1ee9;c to&#xe1;n h&#x1ecd;c &#x111;&#xfa;ng &#x111;&#x1eaf;n.&#xa;(T&#x1ee9;c gi&#x1eef;a 2 to&#xe1;n h&#x1ea1;ng s&#x1ebd; l&#xe0; m&#x1ed9;t to&#xe1;n t&#x1eed; v&#x1edb;i c&#xe1;c ph&#xe9;p to&#xe1;n &#xa;c&#x1ed9;ng, tr&#x1eeb;, nh&#xe2;n, chia, l&#x1ea5;y d&#x1b0;, l&#x169;y th&#x1eeb;a v&#xe0; s&#x1ebd; l&#xe0; m&#x1ed9;t to&#xe1;n h&#x1ea1;ng &#xa;tr&#x1b0;&#x1edb;c m&#x1ed9;t to&#xe1;n h&#x1ea1;ng v&#x1edb;i ph&#xe9;p to&#xe1;n giai th&#x1eeb;a)&#xa;&#xa;4.Tr&#x1b0;&#x1edd;ng h&#x1ee3;p nh&#x1ead;p sai khi nh&#x1ea5;n t&#xed;nh to&#xe1;n s&#x1ebd; b&#xe1;o l&#x1ed7;i v&#xe0; ph&#x1ea3;i s&#x1eed;a l&#x1ea1;i.&#xa;(V&#xed; d&#x1ee5; 2**3,2//3,2!3,2+3+,*9+6,...)"/>
           </Properties>
         </Component>
       </SubComponents>
